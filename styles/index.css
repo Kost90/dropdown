@@ -1,0 +1,45 @@
+/*div{*/
+/*    display: inline-block;*/
+/*}*/
+/*.container{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    background: dimgray;*/
+/*}*/
+
+/*.drop1{*/
+/*    position: relative;*/
+/*}*/
+
+/*nav a{*/
+/*    position: relative;*/
+/*    margin: 0 20px;*/
+/*    padding: 10px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*ul li{*/
+/*    text-align: center;*/
+/*}*/
+
+/*.dropdown{*/
+/*    opacity: 0;*/
+/*    visibility: hidden;*/
+/*    overflow: hidden;*/
+/*    transition: all 0.5s;*/
+/*    background: #3333a8;*/
+/*    position: absolute;*/
+/*    padding: 20px 0;*/
+/*    top: 28px;*/
+/*    left: 27px;*/
+/*    max-height: 200px;*/
+/*}*/
+
+/*nav a:hover + .dropdown{*/
+/*    display: block;*/
+/*    opacity: 1;*/
+/*    visibility: visible;*/
+/*}*/
+
+
+

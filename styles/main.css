@@ -1,0 +1,56 @@
+
+.menu{
+    display: flex;
+    align-items: center;
+    background: dimgray;
+}
+
+.menu li{
+    width: 200px;
+    position: relative;
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background: #3333a8;
+}
+
+.befor::before{
+    content: 'PRODUCTS';
+    background: #3333a8;
+    height: 40px;
+    POSITION: absolute;
+    WIDTH: 200PX;
+    top: -40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu ul{
+display: none;
+position: absolute;
+background: dimgray;
+top: 100%;
+left: 0;
+}
+
+.menu li:hover > ul{
+display: block;
+}
+
+.menu ul ul{
+display: none;
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+
+
